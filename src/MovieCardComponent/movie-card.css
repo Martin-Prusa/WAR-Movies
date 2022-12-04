@@ -1,0 +1,45 @@
+.movie-card {
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid #005bd156;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.movie-card img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.movie-card .content {
+    display: flex;
+}
+
+.movie-card .stars {
+    display: flex;
+    align-items: center;
+    color: #005bd1;
+}
+
+.movie-card .info {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.movie-card .info .title {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder ;
+}
+
+.movie-card .info .director {
+    color: #005bd1;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
